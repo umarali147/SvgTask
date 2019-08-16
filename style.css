@@ -1,0 +1,35 @@
+.main-container{
+    display: grid;
+    grid-template-columns:15% 60% 25%;
+}
+.plane-container{
+    border: 1px solid black;
+    height: fit-content;
+}
+.svg-container{
+    margin:20px;
+}
+.right-side{
+    margin:20px;
+    border: 1px solid black;
+    display: none;
+    height:500px;
+}
+
+.heading-panel-info{
+    margin:0;
+    background:#00a0db;
+    color:white;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.panel-info{
+    height:200px;
+}
+.panel-number-details{
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.panel-number{
+    color:#1b04ff;
+}
